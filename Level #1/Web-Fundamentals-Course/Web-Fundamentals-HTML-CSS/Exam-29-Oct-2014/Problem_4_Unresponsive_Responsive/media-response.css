@@ -1,0 +1,96 @@
+@media screen and (min-width: 760px) and (max-width: 959px){
+	
+	header nav {
+		float: right; 
+		text-align: right;
+		padding: 0 15% 0 0;
+	}
+
+	#about {
+		width: 65%;
+	}
+
+	#content {
+		margin: 0 3% 0 0;
+	}
+
+	#sidebar #social {
+		width: 136px;
+		float: center;
+	}
+
+	#about > p {
+		width: 123%;
+	}
+
+	footer #back-top {
+		margin-right: 20%;
+		float: right;
+		font-size: 12px;
+	}
+
+	#sidebar #search #searchbar {
+		width: 50%;
+	}
+}
+
+
+@media screen and (min-width: 540px) and (max-width: 759px) {
+	
+	#container {
+		width: auto;
+	}
+
+	header nav {
+		position: absolute;
+		top: 90px;
+		left: -44px;
+	}
+
+	header nav ul li {
+		margin: 0;
+		padding: 0;
+	}
+
+	#about {
+		width: 170%;
+	}
+
+	#sidebar #search #searchbar {
+		width: 160%;
+	}
+	
+	footer #back-top {
+		margin-right: 45%;
+		float: right;
+		font-size: 12px;
+	}
+
+}
+
+@media screen and (max-width: 539px) {
+	header nav {
+		float: left;
+		text-align: left;
+		padding: 35px 0px 0 0;
+		width: 35%;
+		margin-left: -13%;
+	}
+	#about {
+		width: 170%;
+	}
+
+	#sidebar #search #searchbar {
+		width: 160%;
+	}
+	
+	#content article {
+		width: 75%;
+	}
+
+	footer #back-top {
+		margin-right: 45%;
+		float: right;
+		font-size: 12px;
+	}
+}

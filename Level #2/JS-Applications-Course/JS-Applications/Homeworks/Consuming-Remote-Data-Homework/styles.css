@@ -1,0 +1,13 @@
+#wrapper {
+    border: 1px solid black;
+}
+.book-list {
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+#input {
+    margin: 20px;
+}

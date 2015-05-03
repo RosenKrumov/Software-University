@@ -1,0 +1,155 @@
+div#form {
+	background-color: pink;
+	width: 28rem;
+	height: 19rem;	
+}
+h1 {
+	font-style: italic;
+	font-family: tahoma;
+	text-align: center;
+	padding-top: 0.5rem;
+	margin-bottom: 0;
+}
+label#from {
+	vertical-align: top;
+	margin-left: 0.7rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+select#fromcity {
+	margin-left: 0.7rem;
+	margin-top: -0.7rem;
+	height: 1.3rem;
+	font-size: 0.8em;
+	width: 13rem;
+}
+label#to {
+	vertical-align: top;
+	margin-left: 11.5rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+select#tocity {
+	margin-left: 14.3rem;
+	height: 1.3rem;
+	font-size: 0.8em;
+	width: 13rem;
+}
+label#depdate {
+	vertical-align: top;
+	margin-left: 0.7rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+label#deptime {
+	vertical-align: top;
+	margin-left: 8rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+p#par {
+	margin-top: -2.3rem;
+}
+p#check {
+	margin-top: -0.8rem;
+	margin-bottom: -1rem;
+}
+input#check {
+	margin-left: 14.7rem;
+	width: 0.7rem;
+}
+span {
+	font-style: italic;
+	font-size: 0.8em;
+	vertical-align: top;
+	margin-left: 0.2rem;
+}
+input#depdateinp {
+	margin-left: 0.7rem;
+	width:13rem;
+	font-family: arial;
+	height: 1.5rem;
+	font-size: 1em;
+}
+p#datetime {
+	margin-top: -1rem;
+	margin-bottom: -0.8rem;
+}
+input#deptimeinp {
+	margin-left: 0.4rem;
+	font-family: arial;
+	height: 1.5rem;
+	font-size: 1em;
+	width: 6.3rem;
+}
+input#deptimeinp1 {
+	width: 6.3rem;
+	font-family: arial;
+	height: 1.5rem;
+	font-size: 1em;
+}
+label#deptime2 {
+	margin-left: 9.3rem;
+	font-style: italic;
+	font-size: 0.8em;
+	vertical-align: top;
+}
+label#largyear {
+	vertical-align: top;
+	margin-left: 0.7rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+label#midyear {
+	vertical-align: top;
+	margin-left: 3.1rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+label#smallyear {
+	vertical-align: top;
+	margin-left: 2.8rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+label#classlab {
+	vertical-align: top;
+	margin-left: 2.7rem;
+	font-style: italic;
+	font-size: 0.8em;
+}
+input#years1 {
+	margin-left: 0.7rem;
+	width: 4.1rem;
+	height: 1.5rem;
+	font-size: 1em;
+}
+input#years2 {
+	width: 4.1rem;
+	height: 1.5rem;
+	font-size: 1em;
+}
+input#years3 {
+	width: 4.1rem;
+	height: 1.5rem;
+	font-size: 1em;
+
+}
+select#class {
+	height: 1.5rem;
+	margin-left: 0.5rem;
+	width: 13rem;
+	font-size: 0.9em;
+}
+p#years {
+	margin-top: -1.2rem;
+}
+input#search {
+	height: 2rem;
+	width: 13rem;
+	text-align: center;
+	margin-left: 14.3rem;
+}
+p#search {
+	margin-top: -0.5rem;
+}

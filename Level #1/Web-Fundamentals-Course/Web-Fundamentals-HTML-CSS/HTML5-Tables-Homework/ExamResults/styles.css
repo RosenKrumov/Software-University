@@ -1,0 +1,21 @@
+table{
+	border: 1px solid black;
+}
+td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+thead {
+	font-weight: bold;
+	font-size: 25px;
+}
+#firstRow {
+	font-weight: bold;
+	text-align: center;
+}
+td {
+	border: 1px solid black;
+}
+tfoot {
+	text-align: right;
+}

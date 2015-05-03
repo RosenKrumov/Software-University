@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/jquery.foggy.min.js"></script>
+    <script src="scripts/blur.js"></script>
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+<div id="memory_board"></div>
+<canvas id="canvas"></canvas>
+
+<script>newBoard();</script>
+<div id="lose">
+    <p id="tooDrunk">You Too Drunk Mother Fu****</p>
+    <button id="button" onclick="newBoard()">Die of alchohol?</button>
+</div>
+<div id="win">
+    <p class="notSoDrunk">You Won</p>
+    <p class="notSoDrunk">You Not so Drunk</p>
+    <button id="button" onclick="newBoard()">Drink Again?</button>
+    <script src="scripts/fireworks.js"></script>
+</div>
+
+</body>
+</html>

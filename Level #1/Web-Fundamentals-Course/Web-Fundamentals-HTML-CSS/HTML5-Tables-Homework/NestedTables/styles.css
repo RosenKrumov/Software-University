@@ -1,0 +1,22 @@
+table, td {
+	border: 1px solid black;
+}
+.img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.secondTable {
+	font-size: 70px;
+	height: 230px;
+	width: 300px;
+	font-family: tahoma;
+}
+table.secondTable td {
+	padding: 10px;
+}
+.table {
+	padding-left: 10px;
+	padding-right: 10px;
+}

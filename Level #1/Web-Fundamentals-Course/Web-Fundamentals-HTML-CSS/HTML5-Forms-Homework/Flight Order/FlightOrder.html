@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Order</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="form">
+		<h1>FLIGHT ORDER</h1>
+		<label for="fromcity" id="from">From</label>
+		<label for="tocity" id="to">To</label>
+		<p>
+			<select name="fromcity" id="fromcity">
+				<option value="empty">enter a city</option>
+				<option value="Varna">Varna</option>
+				<option value="Bourgas">Bourgas</option>
+				<option value="Sofia">Sofia</option>
+			</select>
+		</p>
+		<p id="par">
+			<select name="tocity" id="tocity">
+				<option value="empty">enter a city</option>
+				<option value="Berlin">Berlin</option>
+				<option value="Rome">Rome</option>
+				<option value="Tokio">Tokio</option>
+			</select>
+		</p>
+		<p id="check"><input type="checkbox" name="prefer" value="yes" id="check"><span>Prefer directs</span></p>
+		<p>
+			<label for="depdate" id="depdate">Departure Date</label>
+			<label for="deptime" id="deptime">Time Interval</label>
+		</p>
+		<p id="datetime">
+			<input type="date" name="depdate" id="depdateinp">
+			<input type="time" name="deptime" id="deptimeinp">
+			<input type="time" name="deptime1" id="deptimeinp1">
+		</p>
+		<p>
+			<label for="depdate" id="depdate">Return Date</label>
+			<label for="deptime" id="deptime2">Time Interval</label>
+		</p>
+		<p id="datetime">
+			<input type="date" name="depdate" id="depdateinp">
+			<input type="time" name="deptime" id="deptimeinp">
+			<input type="time" name="deptime1" id="deptimeinp1">
+		</p>
+		<p>
+			<label for="years1" id="largyear">12+</label>
+			<label for="years2" id="midyear">2-12</label>
+			<label for="years3" id="smallyear">0-2</label>
+			<label for="class" id="classlab">Choose class</label>
+		</p>
+		<p id="years">
+			<input type="number" min="0" max="10" id="years1">
+			<input type="number" min="0" max="10" id="years2">
+			<input type="number" min="0" max="10" id="years3">
+			<select name="class" id="class">
+				<option value="economy">Economy</option>
+				<option value="business">Business</option>
+			</select>
+		</p>
+		<p id="search">
+			<input type="submit" value="Search" id="search">
+		</p>
+
+	</div>
+</body>
+</html>

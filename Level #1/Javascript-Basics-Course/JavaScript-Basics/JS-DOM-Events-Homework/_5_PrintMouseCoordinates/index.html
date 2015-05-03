@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<textarea id="txtarea" style="height: 600px; width: 200px"></textarea>
+
+<script>
+
+    var t = document.getElementById("txtarea");
+
+    document.addEventListener('mousemove', function(e){
+        var coord = 'X:' + e.clientX + 'px Y: ' + e.clientY + 'px';
+
+        t.innerHTML +=  coord + '\n';
+    }, false);
+</script>
+</body>
+</html>

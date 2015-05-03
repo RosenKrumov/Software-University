@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>CV Generator</title>
+    <style>
+        fieldset {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+<script src="functions.js"></script>
+<form action="CVGenerator.php" method="post">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <input type="text" name="firstName" placeholder="First Name"/><br/>
+        <input type="text" name="lastName" placeholder="Last Name"/><br/>
+        <input type="text" name="email" placeholder="Email"/><br/>
+        <input type="text" name="phone" placeholder="Phone Number"/><br/>
+        <input type="radio" name="gender" value="Female"/>Female
+        <input type="radio" name="gender" value="Male"/>Male <br/>
+        <label for="birth">Birth Date</label><br/>
+        <input type="text" id="birth" name="birthDate" placeholder="dd/mm/yyyy"/><br/>
+        <label for="nation">Nationality</label><br/>
+        <select name="nationality" id="nation">
+            <option value="Bulgarian">Bulgarian</option>
+            <option value="English">English</option>
+            <option value="Russian">Russian</option>
+            <option value="French">French</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Last Work Position</legend>
+        Company Name <input type="text" name="company"/><br/>
+        From <input type="text" name="from" placeholder="dd/mm/yyyy"/><br/>
+        To <input type="text" name="to" placeholder="dd/mm/yyyy"/><br/>
+    </fieldset>
+    <fieldset>
+        <legend>Computer Skills</legend>
+        Programming Languages <br/>
+        <div id="compParent">
+            <input type="text" name="compLangs[]"/>
+            <select name="compSkills[]">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select><br/>
+        </div>
+        <button onclick="removeCompLang(); return false;">Remove Language</button>
+        <button onclick="addCompLang(); return false;">Add Language</button>
+    </fieldset>
+    <fieldset>
+        <legend>Other Skills</legend>
+        Languages <br/>
+        <div id="langParent">
+            <input type="text" name="langs[]"/>
+            <select name="comprehensions[]">
+                <option value="a" selected disabled>-Comprehension</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+            <select name="readings[]">
+                <option value="a" selected disabled>-Reading-</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+            <select name="writings[]">
+                <option value="a" selected disabled>-Writing-</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select><br/>
+        </div>
+        <button onclick="removeLang(); return false;">Remove Language</button>
+        <button onclick="addLang(); return false;">Add Language</button>
+        <br/>
+        Driver's License <br/>
+        B <input type="checkbox" name="license[]" value="B"/>
+        A <input type="checkbox" name="license[]" value="A"/>
+        C <input type="checkbox" name="license[]" value="C"/><br/>
+    </fieldset>
+    <input type="submit" value="Generate CV"/>
+</form>
+</body>
+</html>

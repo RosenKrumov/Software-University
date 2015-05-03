@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'drunkfont'; /*a name to be used later*/
+    src: url('../Fonts/Drunker(sRB).TTF'); /*URL to font*/
+}
+
+body{
+
+}
+
+div#memory_board{
+
+    background-color:skyblue;
+    border:#999 1px solid;
+    width:1200px;
+    height:800px;
+    padding:24px;
+    margin: auto;
+    margin-top: 50px;
+}
+div#memory_board > div{
+    background-color: deepskyblue;
+    border:#000 1px solid;
+    width:135px;
+    height:135px;
+    float:left;
+    margin:10px;
+    padding:20px;
+    font-size:64px;
+    cursor:pointer;
+    text-align:center;
+
+}
+canvas#canvas{
+    display:none;
+    margin: 0;
+}
+div#lose{
+    font-family: 'drunkfont';
+    margin:300px auto;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    display: none;
+
+
+}
+#button{
+    font-family: 'drunkfont';
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: skyblue;
+    padding-right: 70px;
+    padding-left: 70px;
+    display:block;
+    margin:30px auto
+
+}
+p#tooDrunk{
+    text-align: center;
+    margin:0 auto;
+}
+p.notSoDrunk{
+    text-align: center;
+    margin:0 auto;
+}
+div#win{
+    font-family: 'drunkfont';
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+    display:none;
+}

@@ -1,0 +1,60 @@
+table, td {
+	border: 1px solid black;
+	font-family: tahoma;
+}
+td {
+	height: 100px;
+	width: 100px;
+	padding: 2px;
+}
+#life {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+#google {
+	text-align: left;
+	vertical-align: top;
+}
+#github {
+	text-align: right;
+	vertical-align: top;
+}
+#fb {
+	text-align: center;
+	vertical-align: top;
+}
+#youtube {
+	text-align: center;
+	vertical-align: bottom;
+}
+#food {
+	text-align: right;
+	vertical-align: bottom;
+}
+#game {
+	vertical-align: bottom;
+}
+#beer {
+	text-align: right;
+	vertical-align: middle;
+	font-weight: bold;
+}
+#table {
+	padding: 5px;
+}
+#secondTable {
+	height: 50px;
+}
+#socialLife {
+	height: 50px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+#sleep {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+}

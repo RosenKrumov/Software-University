@@ -1,0 +1,31 @@
+.softUni {
+	font-weight: bold;
+	font-size: 35px;
+	font-family: serif;
+	vertical-align: top;
+	height: 3em;
+	padding-top: 0;
+}
+td {
+	padding: 6px;
+	margin: 2px;
+}
+table {
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 175px;
+	height: 175px;
+}
+.img {
+	vertical-align: top;
+	padding-left: 10px;
+}
+span {
+	font-weight: bold;
+}
+body {
+	margin: 0;
+	padding: 0;
+}

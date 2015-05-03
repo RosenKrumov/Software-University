@@ -1,0 +1,76 @@
+@font-face {
+    font-family: MainFont helvetica sans-serif;
+    src: url(OpenSans-ExtraBold.ttf);
+}
+
+div#container {
+	background-color: #F0F0E8;
+	width: 1000px;
+	height: 480px;
+	box-sizing: border-box;
+}
+
+p#heading {
+	text-align: center;
+	font-family: MainFont helvetica sans-serif;
+    src: url(OpenSans-ExtraBold.ttf);
+	font-size: 56px;
+	color: #009288;
+	margin-top: 10px;
+	padding-top: 25px;
+	margin-bottom: 25px;
+}
+
+p#underHead {
+	text-align: center;
+	font-size: 32px;
+	color: #91908B;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p#text {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #91908B;
+	font-weight: normal;
+}
+
+article {
+	width: 20%;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	color: #91908B;
+	margin: 22px;
+	text-align: center;
+}
+
+div.article {
+	height: 215px;
+}
+
+article h4 {
+	font-family: MainFont helvetica sans-serif;
+    src: url(OpenSans-ExtraBold.ttf);
+    font-size: 16px;
+}
+
+article p {
+	font-size: 12px;
+	line-height: 25px;
+}
+
+a {
+	display: block;	
+	text-decoration: none;
+	color: #91908B;
+}
+
+div.article:hover {
+	background-color: #F6F6F6;
+	border-left: 10px solid #009288;
+}
+

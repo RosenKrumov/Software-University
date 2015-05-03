@@ -1,0 +1,71 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Styling HTML Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="form">
+		<p id="step1">
+			Step 1: Your details
+		</p>
+		<div class="small">
+			Name
+			<input type="text" placeholder="First and last name">
+		</div>
+		<div class="small">
+			E-mail
+			<input type="text" placeholder="example@domain.com">
+		</div>
+		<div class="small">
+			Phone
+			<input type="text" placeholder="eg. +447500000000">
+		</div>
+		<p id="step2">
+			Step 2: Delivery address
+		</p>
+		<div id="big">
+			Address
+			<textarea></textarea>
+		</div>
+		<div class="small">
+			Post code
+			<input type="text" id="postcode" class="step2">
+		</div>
+		<div class="small">
+			Country
+			<input type="text" class="step2">
+		</div>
+		<p id="step2">
+			Step 3: Card details
+		</p>
+		<div id="cardType">
+			Card type <br>
+			<div id="radio">
+				<input type="radio" class="radio" name="visa">
+				<img src="visa.PNG" />
+				<label for="visa">VISA</label>
+				<input type="radio" class="radio" name="amex">
+				<img src="amex.PNG" />
+				<label for="visa">AmEx</label>
+				<input type="radio" class="radio" name="amex">
+				<img src="mast.PNG" />
+				<label for="visa">Mastercard</label>
+			</div>
+		</div>
+		<div class="small">
+			Card number
+			<input type="text" id="cardNum">
+		</div>
+		<div class="small">
+			Security code
+			<input type="password" id="sec">
+		</div>
+		<div class="small">
+			Name on card
+			<input type="text" placeholder="exact name as on the card" id="cardName">
+		</div>
+		<div id="buy"><a href="#">BUY IT!</a></div>
+	</div>
+</body>
+</html>

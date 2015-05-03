@@ -1,0 +1,143 @@
+div {
+	background-color: green;
+	width: 37%;
+	height: 27%;
+	padding: 20px;
+}
+table {
+	border: 2px solid black;
+	text-align: center;
+   	border-radius: 10px;
+   	margin: 5px;
+}
+
+td {
+	
+	height: 2em !important;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	font-size: 12px;
+}
+tr:last-child>td:nth-child(2) {
+	border-bottom: none;
+}
+tr:first-child>td:first-child, tr:last-child>td:first-child {
+	border-left: none;
+}
+tr:first-child>td:last-child, tr:last-child>td:last-child {
+	border-right: none;	
+}
+tr:last-child>td:first-child, tr:last-child>td:last-child {
+	border-bottom: none;
+}
+td:nth-child(2), td:nth-child(4), td:nth-child(6), td:nth-child(8) {
+	border-left: none;
+	border-right: none;
+}
+td:first-child {
+	border-left: none;
+}
+tr:first-child>td:nth-child(1),
+tr:first-child>td:nth-child(2),
+tr:first-child>td:nth-child(3),
+tr:first-child>td:nth-child(4),
+tr:first-child>td:nth-child(5) {
+	font-size: 16px;
+}
+tr:last-child>td:nth-child(3), 
+tr:last-child>td:nth-child(4), 
+tr:last-child>td:nth-child(5), 
+tr:last-child>td:nth-child(6), 
+tr:last-child>td:nth-child(7) {
+	border-bottom: none;
+}
+tr:first-child {
+	background-color: rgba(230, 186, 0, 1);
+	font-weight: bold;
+}
+tr:nth-child(3), tr:nth-child(5) {
+	background-color: rgba(146, 144, 144, 1);
+	height: 2em;
+}
+tr:nth-child(2), tr:nth-child(4), tr:nth-child(6) {
+	background-color: rgba(206, 206, 206, 1);
+	height: 2em;
+}
+td:first-child {
+	text-align: right;
+	padding-right: 4px;
+}
+td:nth-child(3) {
+	text-align: left;
+	padding-left: 4px;
+}
+tr:nth-child(2)>td:nth-child(5),
+tr:nth-child(3)>td:nth-child(5),
+tr:nth-child(4)>td:nth-child(5),
+tr:nth-child(5)>td:nth-child(5),
+tr:nth-child(6)>td:nth-child(5) {
+	text-align: right;
+	padding-right: 4px;
+}
+td:nth-child(7) {
+	text-align: left;
+	padding-left: 4px;
+}
+td:nth-child(2) {
+	width: 55px !important;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+tr:first-child>td:nth-child(5) {
+	border-top-right-radius: 7px;
+}
+tr:first-child>td:first-child {
+	border-top-left-radius: 7px;
+}
+tr:last-child>td:first-child {
+	border-bottom-left-radius: 7px;
+}
+tr:last-child>td:nth-child(8) {
+	border-bottom-right-radius: 7px;
+}
+.redButton {
+	background-image: url("bet-red.png");
+	width: 20px;
+	height: 20px;
+	background-size: 105%;
+	border: none;
+	background-color: transparent;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.greenButton {
+	background-image: url("bet-green.png");
+	width: 20px;
+	height: 20px;
+	background-size: 105%;
+	border: none;
+	background-color: transparent;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.inactive {
+	background-color: rgba(189, 184, 184, 1);
+	width: 40%;
+	color:red;
+	height: 23px;
+	width: 32px;
+}
+.active {
+	background-color: rgba(206, 206, 206, 1);
+	width: 40%;
+	color:green;
+	height: 23px;
+	width: 32px;
+}
+.inactive option {
+	color: red;
+}
+.active option {
+	color: green;
+}

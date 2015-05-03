@@ -1,0 +1,99 @@
+h2 {
+	color: darkblue;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+p#underhead {
+	margin-left: 10px;
+}
+input#first {
+	margin-top: -10px;
+}
+div#form {
+	width:40rem;
+	height:28rem;
+	background-color: lightgrey;
+}
+input#regbutton {
+	width:9rem;
+	margin-left: 8rem;
+	border: 2px solid darkblue;
+	color: darkblue;
+	font-weight: bold;
+	background: none;
+}
+input#regbutton:hover {
+	background-color: darkblue;
+	color: white;
+}
+div#register {
+	margin-left: 30px;	
+	display: inline-block;
+	margin-top: 1.7rem;
+}
+p {
+	color: grey;
+}
+input#check {
+	width:1rem;
+	margin-left: 0.8rem;
+	margin-top: -0.6rem;
+}
+label {
+	vertical-align: top;
+	color: white;
+	font-size: 0.7em;		
+}
+input {
+	width: 17rem;
+	height: 2rem;
+	padding-left: 5px;
+}
+input.log {
+	margin-left: 0.8rem;
+}
+div#login {
+	display: inline-block;
+	background-color: darkblue;
+	color: white;
+	vertical-align: top;
+	margin-left: 0.5rem;
+	margin-top: 3.3rem;
+	width: 18.6rem;
+	height: 15.7rem;
+}
+input#logfirst {
+	margin-top: -0.5rem;
+}
+h4#reghead {
+	color: grey;
+}
+span {
+	color: darkblue;
+}
+h4#loghead {
+	color: white;
+	margin-top: 0.5rem;
+	margin-left: 0.8rem;
+}
+input#logbutton {
+	width:8rem;
+	margin-left: 9.7rem;
+	border: 2px solid orange;
+	color: white;
+	background: none;
+	font-family: serif;
+	margin-top: -1.7rem;
+	margin-bottom: 0.5rem;
+}
+input#logbutton:hover {
+	background-color: orange;
+	color: white;
+}
+a#forget {
+	color:white;
+	font-size: 0.7em;
+	margin-left: 11.6rem;
+	width: 2rem;
+	font-weight: bold;
+}

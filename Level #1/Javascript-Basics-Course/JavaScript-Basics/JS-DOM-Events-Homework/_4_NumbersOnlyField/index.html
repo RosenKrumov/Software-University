@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #txt1 {
+            border: lightblue 1px solid;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<form>
+    <input type="text" id="txt1" autofocus>
+
+</form>
+<script>
+    var t = document.getElementById("txt1");
+    t.addEventListener("keyup", keyCheck, false);
+
+    function keyCheck(e) {
+
+        if (isNaN(e.target.value)) {
+            t.readOnly = true;
+            txt1.style.backgroundColor = 'red';
+
+            setTimeout(function () {
+                t.readOnly = false;
+                txt1.style.backgroundColor = 'white';
+                t.value = t.value.substr(0, t.value.length - 1);
+                txt1.focus();
+            }, 1000);
+        }
+    }
+</script>
+</body>
+</html>

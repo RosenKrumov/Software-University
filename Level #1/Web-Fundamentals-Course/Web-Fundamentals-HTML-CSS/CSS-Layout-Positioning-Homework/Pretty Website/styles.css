@@ -1,0 +1,137 @@
+html, body, div, header, nav, ul, li, section, h1, p, a, img, h4, footer {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #101415;
+}
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header {
+	height: 270px;
+	background-image: url("../images/headerBackground.jpg");
+}
+	header #site-title {
+		position: relative;
+		top: 200px;
+		right: 20px;
+		font-size: 2em;
+		background: none;
+		font-weight: bold;
+		color: white;
+		text-align: right;
+	}
+footer {
+	clear:both;
+	height: 50px;
+	display: block;
+	padding-top: 30px;
+	padding-left: 100px;
+	background-color: #9FD63D;
+	color: black;
+}
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #ECECEC;
+}
+	nav ul {
+		border-bottom: 1px solid white;	
+	}
+		nav ul li {
+			height: 46px;
+			list-style: none;
+			display: inline-flex;
+			width: 130px;
+			border-right: 1px solid white;	
+		}
+			nav ul li a {
+				text-decoration: none;
+				text-align: center;
+				padding-top: 13px;
+				font-size: 1.3em;
+				color: #626161;
+				width: 100%;
+			}
+			nav ul li a:hover {
+				background-color: #BDBDBD;
+				border-right: 4px solid #ECECEC;
+				color: white;
+			}
+.main-content {
+	width: 640px;
+	float: left;
+}
+
+#home {
+		height: 180px;
+}
+.bold {
+	font-weight: bold;
+}
+#products {
+	height: 450px;
+}
+	#home, #products {
+		margin: 15px;
+		padding: 20px;
+		border: 2px solid #EEEEEE;
+		border-radius: 15px;
+	}
+	.prod {
+		clear: both;
+	}
+	.prod img {
+		float: left;
+		margin-bottom: 10px;
+		margin-right: 15px;
+	}
+.side-bar {
+	width: 250px;
+	float: right;
+}
+	#news, #messages {
+		margin: 15px;
+		padding: 20px;
+		border: 2px solid #EEEEEE;
+		border-radius: 15px;
+	}
+	#news {
+		background-color: #EEEEEE;
+	}
+	
+	.news-section {
+		margin-bottom: 15px;
+	}
+	
+	#messages p {
+		margin-bottom: 20px;
+	}
+h1 {
+	color: #84BE19;
+	margin-bottom: 25px;
+}
+.main-content h4 {
+	margin-bottom: 10px;
+}
+p {
+	font-size: 0.9em;
+}
+h4 {
+	font-size: 0.9em;
+}
+a {
+	color: #84BE19;;
+}
+#products a {
+	text-decoration: none;
+	color: black;
+} 
+footer a {
+	color: black;
+}
