@@ -1,0 +1,34 @@
+var employee = new Employees
+{
+	FirstName = "Pesho",
+	MiddleName = "Gosho",
+	LastName = "Gosho",
+	DepartmentID = 3,
+	HireDate = DateTime.Now,
+	JobTitle = "Developer",
+	ManagerID = 5,
+	Salary = 2000m,
+	AddressID = 1
+};
+
+//DAOClass.Add(employee);
+
+var foundEmployee = DAOClass.FindByKey(15);
+
+var newEmployee = new Employees
+{
+	EmployeeID = 294,
+	FirstName = "Gosho",
+	MiddleName = "Gosho",
+	LastName = "Gosho",
+	DepartmentID = 3,
+	HireDate = DateTime.Now,
+	JobTitle = "Developer",
+	ManagerID = 5,
+	Salary = 2000m,
+	AddressID = 1
+};
+
+DAOClass.Modify(newEmployee);
+
+DAOClass.Delete(newEmployee);

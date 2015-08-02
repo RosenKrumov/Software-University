@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{946673CA-FA69-4868-8CD1-E30D5DB1C895}"
+	ProjectSection(SolutionItems) = preProject
+		01_students.xml = 01_students.xml
+		02_Namespace.xml = 02_Namespace.xml
+		03_XSD_Schema.xml = 03_XSD_Schema.xml
+		03_XSD_Schema_Exams.xsd = 03_XSD_Schema_Exams.xsd
+		03_XSD_Schema_Root.xsd = 03_XSD_Schema_Root.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

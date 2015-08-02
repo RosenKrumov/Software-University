@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students:students xmlns:students="http://www.students.org/students">
+  <students:student>
+    <students:name>Pesho Peshev</students:name>
+    <students:gender>Male</students:gender>
+    <students:birth-date>1.10.1991</students:birth-date>
+    <students:phone-number>0888821212</students:phone-number>
+    <students:email>pesho@pesho.com</students:email>
+    <students:university>SoftUni</students:university>
+    <students:speciality>Software Engineering</students:speciality>
+    <students:faculty-number>1231283</students:faculty-number>
+    <students:exams>
+      <exam>
+        <exam-name>OOP</exam-name>
+        <date-taken>01.01.2015</date-taken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <exam-name>Data Structures</exam-name>
+        <date-taken>02.02.2015</date-taken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <exam-name>Algorithms</exam-name>
+        <date-taken>03.03.2015</date-taken>
+        <grade>6.00</grade>
+      </exam>
+    </students:exams>
+  </students:student>
+  <students:student>
+    <students:name>Gosho Goshev</students:name>
+    <students:gender>Male</students:gender>
+    <students:birth-date>15.05.1992</students:birth-date>
+    <students:phone-number>0888121212</students:phone-number>
+    <students:email>goshev@goshev.bg</students:email>
+    <students:university>SoftUni</students:university>
+    <students:speciality>Software Engineering</students:speciality>
+    <students:faculty-number>8880801</students:faculty-number>
+    <students:exams>
+      <exam>
+        <exam-name>Advanced C#</exam-name>
+        <date-taken>25.08.2014</date-taken>
+        <grade>5.99</grade>
+      </exam>
+      <exam>
+        <exam-name>ASP.NET Development</exam-name>
+        <date-taken>21.07.2014</date-taken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <exam-name>C# Basics</exam-name>
+        <date-taken>21.08.2014</date-taken>
+        <grade>6.00</grade>
+      </exam>
+    </students:exams>
+  </students:student>
+</students:students>

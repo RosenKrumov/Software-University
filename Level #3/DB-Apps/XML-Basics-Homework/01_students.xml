@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <name>Pesho Peshev</name>
+    <gender>Male</gender>
+    <birth-date>1.10.1991</birth-date>
+    <phone-number>0888821212</phone-number>
+    <email>pesho@pesho.com</email>
+    <university>SoftUni</university>
+    <speciality>Software Engineering</speciality>
+    <faculty-number>1231283</faculty-number>
+    <exams>
+      <exam>
+        <exam-name>OOP</exam-name>
+        <date-taken>01.01.2015</date-taken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <exam-name>Data Structures</exam-name>
+        <date-taken>02.02.2015</date-taken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <exam-name>Algorithms</exam-name>
+        <date-taken>03.03.2015</date-taken>
+        <grade>6.00</grade>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Gosho Goshev</name>
+    <gender>Male</gender>
+    <birth-date>15.05.1992</birth-date>
+    <phone-number>0888121212</phone-number>
+    <email>goshev@goshev.bg</email>
+    <university>SoftUni</university>
+    <speciality>Software Engineering</speciality>
+    <faculty-number>8880801</faculty-number>
+    <exams>
+      <exam>
+        <exam-name>Advanced C#</exam-name>
+        <date-taken>25.08.2014</date-taken>
+        <grade>5.99</grade>
+      </exam>
+      <exam>
+        <exam-name>ASP.NET Development</exam-name>
+        <date-taken>21.07.2014</date-taken>
+        <grade>6.00</grade>
+      </exam>
+      <exam>
+        <exam-name>C# Basics</exam-name>
+        <date-taken>21.08.2014</date-taken>
+        <grade>6.00</grade>
+      </exam>
+    </exams>
+  </student>
+</students>

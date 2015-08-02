@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students:students
+  xmlns:students="http://www.students.org/students"
+  xmlns:exams="http://www.students.org/students/exams">
+  <students:student>
+    <students:name>Pesho Peshev</students:name>
+    <students:gender>Male</students:gender>
+    <students:birth-date>1.10.1991</students:birth-date>
+    <students:phone-number>0888821212</students:phone-number>
+    <students:email>pesho@pesho.com</students:email>
+    <students:university>SoftUni</students:university>
+    <students:speciality>Software Engineering</students:speciality>
+    <students:faculty-number>1231283</students:faculty-number>
+    <students:exams>
+      <exams:exam>
+        <exams:exam-name>OOP</exams:exam-name>
+        <exams:exam-date>01.01.2015</exams:exam-date>
+        <exams:grade>6.00</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>Data Structures</exams:exam-name>
+        <exams:exam-date>02.02.2015</exams:exam-date>
+        <exams:grade>6.00</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>Algorithms</exams:exam-name>
+        <exams:exam-date>03.03.2015</exams:exam-date>
+        <exams:grade>6.00</exams:grade>
+      </exams:exam>
+    </students:exams>
+  </students:student>
+  <students:student>
+    <students:name>Gosho Goshev</students:name>
+    <students:gender>Male</students:gender>
+    <students:birth-date>15.05.1992</students:birth-date>
+    <students:phone-number>0888121212</students:phone-number>
+    <students:email>goshev@goshev.bg</students:email>
+    <students:university>SoftUni</students:university>
+    <students:speciality>Software Engineering</students:speciality>
+    <students:faculty-number>8880801</students:faculty-number>
+    <students:exams>
+      <exams:exam>
+        <exams:exam-name>Advanced C#</exams:exam-name>
+        <exams:exam-date>25.08.2014</exams:exam-date>
+        <exams:grade>5.99</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>ASP.NET Development</exams:exam-name>
+        <exams:exam-date>21.07.2014</exams:exam-date>
+        <exams:grade>6.00</exams:grade>
+      </exams:exam>
+      <exams:exam>
+        <exams:exam-name>C# Basics</exams:exam-name>
+        <exams:exam-date>21.08.2014</exams:exam-date>
+        <exams:grade>6.00</exams:grade>
+      </exams:exam>
+    </students:exams>
+  </students:student>
+</students:students>
